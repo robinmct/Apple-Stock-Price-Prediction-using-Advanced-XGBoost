@@ -1,6 +1,7 @@
 # `Apple Stock Price Prediction using Advanced XGBoost` #
 
 **Dataset:** Apple Stock Prices (2015–2020) – Daily Historical Stock Data
+**URL**: https://www.kaggle.com/datasets/suyashlakhani/apple-stock-prices-20152020
 
 This notebook builds a machine learning pipeline to forecast Apple Inc. (AAPL) daily stock price movements using **XGBoost**, a gradient-boosted tree algorithm well-suited to structured, tabular financial data. Rather than predicting the raw closing price — which is non-stationary and unbounded — the model is trained to predict **next-day percentage returns**, eliminating look-ahead bias and making the target stationary.
 
